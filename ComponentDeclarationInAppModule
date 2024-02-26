@@ -1,0 +1,2 @@
+App.Module.ts has @NgModule with declaration , imports , providers and bootstrap
+The components should be declared and imported inside the declaration of @NgModule
