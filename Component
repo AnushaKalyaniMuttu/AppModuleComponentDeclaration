@@ -1,0 +1,17 @@
+component.ts file will have @Component which has selector , TemplateUrl, styleUrl
+example 
+@Component({
+selector: 'app-server',
+templateUrl:'./app.component.html',
+styleUrl:'./app.component.css';
+
+we can have the inline templates and styles
+Example:
+@Component({
+selector: 'app-server',
+template: `<app-server></app-server>`
+styles: [ `h1{
+         color: "pink"
+        }
+        `]
+styles is an array  as mentioned above. The inline template and style should be using using ` symbol.
